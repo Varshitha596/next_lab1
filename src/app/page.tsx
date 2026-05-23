@@ -1,7 +1,9 @@
 import Link from "next/link"
+import Navbar from "@/app/component/Navbar"
 export default function HOME(){
     return ( 
     <div>
+        <Navbar/>
         <h1 >
             hi.. varsha
         </h1>
