@@ -1,5 +1,10 @@
+import Navbar from "../components/navbar"
 export default function service(){
   return   (
-       <h1>service</h1> 
+    <div>
+      <Navbar/>
+         <h1>service</h1> 
+    </div>
+
     )
 }
