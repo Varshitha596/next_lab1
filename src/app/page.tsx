@@ -8,11 +8,9 @@ export default function HOME(){
     const [nam,setname]=useState('')
     const [email,setemail]=useState('')
      const handleSubmit = (e:any) => {
-    e.preventDefault()
+     e.preventDefault()
     alert(nam)
   }
-
-
     return (
         <div>
             <form  onSubmit={handleSubmit}>
