@@ -1,5 +1,10 @@
+import Link from 'next/link'
 export default function Navbar(){
     return (
-        <h2>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</h2>
+       <div>
+        <Link href='/'>home</Link>
+        <br/>
+        <Link href='/about'>ABout</Link>
+       </div>
     )
 }
